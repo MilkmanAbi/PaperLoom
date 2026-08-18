@@ -1,0 +1,33 @@
+{
+  "id": "search_bar",
+  "name": "Search bar",
+  "category": "inputs",
+  "source": "default",
+  "widget_class": "QLineEdit",
+  "qt_include": "QLineEdit",
+  "style_role": "search",
+  "tags": [
+    "search",
+    "find",
+    "filter",
+    "query"
+  ],
+  "description": "A rounded search field.",
+  "properties": [
+    {
+      "name": "placeholder",
+      "type": "string",
+      "default": "Search...",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "placeholder"
+  ],
+  "signals": [
+    {
+      "name": "textChanged",
+      "stub": "on_{name}_text_changed"
+    }
+  ]
+}

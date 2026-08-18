@@ -1,0 +1,8 @@
+{{ name }} = new QScrollArea(MainWindow);
+{{ name }}->setObjectName("{{ name }}");
+{{ name }}->setProperty("role", "scroll_area");
+{{ name }}->setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }});
+{{ name }}->setWidgetResizable(true);
+auto *{{ name }}_inner = new QLabel("{{ label }}");
+{{ name }}_inner->setAlignment(Qt::AlignCenter);
+{{ name }}->setWidget({{ name }}_inner);

@@ -1,0 +1,28 @@
+{
+  "id": "status_strip",
+  "name": "Status strip",
+  "category": "chrome",
+  "source": "default",
+  "widget_class": "QWidget",
+  "qt_include": "QWidget",
+  "style_role": "statusbar",
+  "tags": [
+    "status",
+    "footer",
+    "strip",
+    "chrome"
+  ],
+  "description": "A bottom status strip.",
+  "properties": [
+    {
+      "name": "text",
+      "type": "string",
+      "default": "Ready",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "text"
+  ],
+  "signals": []
+}

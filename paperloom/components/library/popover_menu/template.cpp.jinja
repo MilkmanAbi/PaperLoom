@@ -1,0 +1,10 @@
+{{ name }} = new QFrame(MainWindow);
+{{ name }}->setObjectName("{{ name }}");
+{{ name }}->setProperty("role", "popover");
+{{ name }}->setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }});
+{% for item in items.split(",") %}auto *{{ name }}_item{{ loop.index0 }} = new QLabel({{ name }});
+{{ name }}_item{{ loop.index0 }}->setObjectName("{{ name }}_item{{ loop.index0 }}");
+{{ name }}_item{{ loop.index0 }}->setProperty("role", "popover_item");
+{{ name }}_item{{ loop.index0 }}->setText("{{ item.strip() }}");
+{{ name }}_item{{ loop.index0 }}->setGeometry(4, {{ loop.index0 * 28 + 4 }}, std::max(0, {{ width }} - 8), 26);
+{% endfor %}

@@ -1,0 +1,29 @@
+{
+  "id": "toast",
+  "name": "Toast",
+  "category": "overlays",
+  "source": "default",
+  "widget_class": "QFrame",
+  "qt_include": "QFrame",
+  "style_role": "toast",
+  "tags": [
+    "toast",
+    "snackbar",
+    "notification",
+    "overlay",
+    "message"
+  ],
+  "description": "A transient notification toast.",
+  "properties": [
+    {
+      "name": "text",
+      "type": "string",
+      "default": "Saved",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "text"
+  ],
+  "signals": []
+}

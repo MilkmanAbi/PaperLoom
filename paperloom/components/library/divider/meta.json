@@ -1,0 +1,28 @@
+{
+  "id": "divider",
+  "name": "Divider",
+  "category": "display",
+  "source": "default",
+  "widget_class": "QFrame",
+  "qt_include": "QFrame",
+  "style_role": "divider",
+  "tags": [
+    "divider",
+    "separator",
+    "rule",
+    "line"
+  ],
+  "description": "A horizontal rule.",
+  "properties": [
+    {
+      "name": "vertical",
+      "type": "bool",
+      "default": false,
+      "control": "checkbox"
+    }
+  ],
+  "quick_properties": [
+    "vertical"
+  ],
+  "signals": []
+}

@@ -1,0 +1,7 @@
+self.{{ name }} = QLabel(MainWindow)
+self.{{ name }}.setObjectName("{{ name }}")
+self.{{ name }}.setProperty("role", "media_frame")
+self.{{ name }}.setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }})
+self.{{ name }}.setProperty("asset", "{{ asset }}")
+self.{{ name }}.setAlignment(Qt.AlignmentFlag.AlignCenter)
+{% if asset_path %}self.{{ name }}.setText("\u266a " + "{{ asset }}".rsplit("/", 1)[-1]){% else %}self.{{ name }}.setText("\u266a Audio"){% endif %}

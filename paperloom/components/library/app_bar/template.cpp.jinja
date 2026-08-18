@@ -1,0 +1,9 @@
+{{ name }} = new QWidget(MainWindow);
+{{ name }}->setObjectName("{{ name }}");
+{{ name }}->setProperty("role", "appbar");
+{{ name }}->setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }});
+auto *{{ name }}_title = new QLabel({{ name }});
+{{ name }}_title->setObjectName("{{ name }}_title");
+{{ name }}_title->setProperty("role", "appbar_title");
+{{ name }}_title->setText("{{ title }}");
+{{ name }}_title->setGeometry(16, 0, std::max(0, {{ width }} - 32), {{ height }});

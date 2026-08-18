@@ -1,0 +1,32 @@
+{
+  "id": "radio",
+  "name": "Radio button",
+  "category": "inputs",
+  "source": "default",
+  "widget_class": "QRadioButton",
+  "qt_include": "QRadioButton",
+  "style_role": "radio",
+  "tags": [
+    "radio",
+    "option",
+    "choice"
+  ],
+  "description": "A single radio option.",
+  "properties": [
+    {
+      "name": "text",
+      "type": "string",
+      "default": "Option",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "text"
+  ],
+  "signals": [
+    {
+      "name": "toggled",
+      "stub": "on_{name}_toggled"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{{ name }} = new QFrame(MainWindow);
+{{ name }}->setObjectName("{{ name }}");
+{{ name }}->setProperty("role", "divider");
+{{ name }}->setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }});
+{% if vertical %}{{ name }}->setFrameShape(QFrame::VLine);{% else %}{{ name }}->setFrameShape(QFrame::HLine);{% endif %}
+{{ name }}->setFrameShadow(QFrame::Plain);

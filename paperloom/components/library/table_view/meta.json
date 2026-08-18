@@ -1,0 +1,29 @@
+{
+  "id": "table_view",
+  "name": "Table",
+  "category": "data",
+  "source": "default",
+  "widget_class": "QTableWidget",
+  "qt_include": "QTableWidget",
+  "style_role": "table",
+  "tags": [
+    "table",
+    "grid",
+    "rows",
+    "data",
+    "spreadsheet"
+  ],
+  "description": "A data table.",
+  "properties": [
+    {
+      "name": "columns",
+      "type": "string",
+      "default": "Name, Value, Status",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "columns"
+  ],
+  "signals": []
+}

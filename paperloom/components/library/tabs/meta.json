@@ -1,0 +1,33 @@
+{
+  "id": "tabs",
+  "name": "Tabs",
+  "category": "containers",
+  "source": "default",
+  "widget_class": "QTabWidget",
+  "qt_include": "QTabWidget",
+  "style_role": "tabs",
+  "tags": [
+    "tabs",
+    "tabbed",
+    "sections",
+    "navigation"
+  ],
+  "description": "A tabbed container.",
+  "properties": [
+    {
+      "name": "tabs",
+      "type": "string",
+      "default": "Overview, Details, Settings",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "tabs"
+  ],
+  "signals": [
+    {
+      "name": "currentChanged",
+      "stub": "on_{name}_tab_changed"
+    }
+  ]
+}

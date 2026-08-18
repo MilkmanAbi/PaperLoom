@@ -1,0 +1,29 @@
+{
+  "id": "card",
+  "name": "Card",
+  "category": "containers",
+  "source": "default",
+  "widget_class": "QFrame",
+  "qt_include": "QFrame",
+  "style_role": "card",
+  "tags": [
+    "card",
+    "panel",
+    "surface",
+    "container",
+    "box"
+  ],
+  "description": "A raised content card.",
+  "properties": [
+    {
+      "name": "title",
+      "type": "string",
+      "default": "",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "title"
+  ],
+  "signals": []
+}

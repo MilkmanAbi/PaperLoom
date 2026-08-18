@@ -1,0 +1,29 @@
+{
+  "id": "modal_dialog",
+  "name": "Modal dialog",
+  "category": "overlays",
+  "source": "default",
+  "widget_class": "QFrame",
+  "qt_include": "QFrame",
+  "style_role": "modal",
+  "tags": [
+    "modal",
+    "dialog",
+    "popup",
+    "overlay",
+    "prompt"
+  ],
+  "description": "A centred modal dialog surface.",
+  "properties": [
+    {
+      "name": "title",
+      "type": "string",
+      "default": "Are you sure?",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "title"
+  ],
+  "signals": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "popover_menu",
+  "name": "Popover menu",
+  "category": "overlays",
+  "source": "default",
+  "widget_class": "QFrame",
+  "qt_include": "QFrame",
+  "style_role": "card",
+  "tags": [
+    "popover",
+    "menu",
+    "dropdown",
+    "overlay",
+    "context"
+  ],
+  "description": "A floating menu surface.",
+  "properties": [
+    {
+      "name": "items",
+      "type": "string",
+      "default": "Edit, Duplicate, Delete",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "items"
+  ],
+  "signals": []
+}

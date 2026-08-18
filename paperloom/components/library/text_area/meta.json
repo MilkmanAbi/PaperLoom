@@ -1,0 +1,33 @@
+{
+  "id": "text_area",
+  "name": "Text area",
+  "category": "inputs",
+  "source": "default",
+  "widget_class": "QPlainTextEdit",
+  "qt_include": "QPlainTextEdit",
+  "style_role": "input",
+  "tags": [
+    "input",
+    "multiline",
+    "textarea",
+    "notes"
+  ],
+  "description": "A multi-line text area.",
+  "properties": [
+    {
+      "name": "placeholder",
+      "type": "string",
+      "default": "Write something...",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "placeholder"
+  ],
+  "signals": [
+    {
+      "name": "textChanged",
+      "stub": "on_{name}_text_changed"
+    }
+  ]
+}

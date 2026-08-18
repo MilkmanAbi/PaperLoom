@@ -1,0 +1,5 @@
+{{ name }} = new QWidget(MainWindow);
+{{ name }}->setObjectName("{{ name }}");
+{{ name }}->setProperty("role", "scrim");
+{{ name }}->setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }});
+{{ name }}->setStyleSheet(QString("background: rgba(0, 0, 0, %1);").arg({{ opacity_pct }} * 255 / 100));

@@ -1,0 +1,29 @@
+{
+  "id": "app_bar",
+  "name": "App bar",
+  "category": "chrome",
+  "source": "default",
+  "widget_class": "QWidget",
+  "qt_include": "QWidget",
+  "style_role": "appbar",
+  "tags": [
+    "appbar",
+    "header",
+    "topbar",
+    "toolbar",
+    "chrome"
+  ],
+  "description": "A top app bar surface.",
+  "properties": [
+    {
+      "name": "title",
+      "type": "string",
+      "default": "My App",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "title"
+  ],
+  "signals": []
+}

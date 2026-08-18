@@ -1,0 +1,6 @@
+{{ name }} = new QListWidget(MainWindow);
+{{ name }}->setObjectName("{{ name }}");
+{{ name }}->setProperty("role", "list");
+{{ name }}->setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }});
+{% for item in items.split(",") %}{{ name }}->addItem("{{ item.strip() }}");
+{% endfor %}

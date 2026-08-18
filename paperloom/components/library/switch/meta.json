@@ -1,0 +1,39 @@
+{
+  "id": "switch",
+  "name": "Switch",
+  "category": "inputs",
+  "source": "default",
+  "widget_class": "QCheckBox",
+  "qt_include": "QCheckBox",
+  "style_role": "switch",
+  "tags": [
+    "switch",
+    "toggle",
+    "onoff",
+    "setting"
+  ],
+  "description": "An on/off switch.",
+  "properties": [
+    {
+      "name": "text",
+      "type": "string",
+      "default": "Notifications",
+      "control": "text"
+    },
+    {
+      "name": "checked",
+      "type": "bool",
+      "default": true,
+      "control": "checkbox"
+    }
+  ],
+  "quick_properties": [
+    "text"
+  ],
+  "signals": [
+    {
+      "name": "toggled",
+      "stub": "on_{name}_toggled"
+    }
+  ]
+}

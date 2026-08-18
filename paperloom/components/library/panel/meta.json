@@ -1,0 +1,28 @@
+{
+  "id": "panel",
+  "name": "Panel",
+  "category": "containers",
+  "source": "default",
+  "widget_class": "QFrame",
+  "qt_include": "QFrame",
+  "style_role": "panel",
+  "tags": [
+    "panel",
+    "section",
+    "container",
+    "group"
+  ],
+  "description": "A subtle grouping panel.",
+  "properties": [
+    {
+      "name": "title",
+      "type": "string",
+      "default": "",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "title"
+  ],
+  "signals": []
+}

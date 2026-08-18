@@ -1,0 +1,36 @@
+{
+  "id": "theme_toggle",
+  "name": "Theme toggle",
+  "category": "chrome",
+  "source": "default",
+  "widget_class": "QPushButton",
+  "qt_include": "QPushButton",
+  "style_role": "button_icon",
+  "tags": [
+    "theme",
+    "dark",
+    "light",
+    "moon",
+    "sun",
+    "toggle"
+  ],
+  "description": "A sun/moon button that switches the app between light and dark.",
+  "properties": [
+    {
+      "name": "text",
+      "type": "string",
+      "default": "\u263e",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "text"
+  ],
+  "signals": [
+    {
+      "name": "clicked",
+      "stub": "on_{name}_clicked",
+      "body": "self.toggle_theme()"
+    }
+  ]
+}

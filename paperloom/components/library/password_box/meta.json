@@ -1,0 +1,33 @@
+{
+  "id": "password_box",
+  "name": "Password box",
+  "category": "inputs",
+  "source": "default",
+  "widget_class": "QLineEdit",
+  "qt_include": "QLineEdit",
+  "style_role": "input",
+  "tags": [
+    "input",
+    "password",
+    "secret",
+    "login"
+  ],
+  "description": "A masked password input.",
+  "properties": [
+    {
+      "name": "placeholder",
+      "type": "string",
+      "default": "Password",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "placeholder"
+  ],
+  "signals": [
+    {
+      "name": "textChanged",
+      "stub": "on_{name}_text_changed"
+    }
+  ]
+}

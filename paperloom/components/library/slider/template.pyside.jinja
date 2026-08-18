@@ -1,0 +1,7 @@
+self.{{ name }} = QSlider(MainWindow)
+self.{{ name }}.setObjectName("{{ name }}")
+self.{{ name }}.setProperty("role", "slider")
+self.{{ name }}.setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }})
+self.{{ name }}.setValue({{ value }})
+self.{{ name }}.setOrientation(Qt.Orientation.Horizontal)
+self.{{ name }}.setRange(0, 100)

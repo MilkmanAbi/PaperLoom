@@ -1,0 +1,28 @@
+{
+  "id": "image",
+  "name": "Image",
+  "category": "display",
+  "source": "default",
+  "widget_class": "QLabel",
+  "qt_include": "QLabel",
+  "style_role": "image",
+  "tags": [
+    "image",
+    "picture",
+    "photo",
+    "asset"
+  ],
+  "description": "An image placeholder.",
+  "properties": [
+    {
+      "name": "text",
+      "type": "string",
+      "default": "Image",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "text"
+  ],
+  "signals": []
+}

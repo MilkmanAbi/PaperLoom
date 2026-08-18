@@ -1,0 +1,28 @@
+{
+  "id": "scroll_area",
+  "name": "Scroll area",
+  "category": "containers",
+  "source": "default",
+  "widget_class": "QScrollArea",
+  "qt_include": "QScrollArea",
+  "style_role": "scroll",
+  "tags": [
+    "scroll",
+    "area",
+    "overflow",
+    "container"
+  ],
+  "description": "A scrollable region.",
+  "properties": [
+    {
+      "name": "label",
+      "type": "string",
+      "default": "Scrollable area",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "label"
+  ],
+  "signals": []
+}

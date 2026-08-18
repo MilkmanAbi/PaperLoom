@@ -1,0 +1,29 @@
+{
+  "id": "overlay_scrim",
+  "name": "Overlay scrim",
+  "category": "overlays",
+  "source": "default",
+  "widget_class": "QWidget",
+  "qt_include": "QWidget",
+  "style_role": "scrim",
+  "tags": [
+    "overlay",
+    "scrim",
+    "modal",
+    "dim",
+    "backdrop"
+  ],
+  "description": "A dimming backdrop that sits over the page.",
+  "properties": [
+    {
+      "name": "opacity_pct",
+      "type": "int",
+      "default": 40,
+      "control": "number"
+    }
+  ],
+  "quick_properties": [
+    "opacity_pct"
+  ],
+  "signals": []
+}

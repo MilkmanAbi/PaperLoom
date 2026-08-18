@@ -1,0 +1,39 @@
+{
+  "id": "toggle_button",
+  "name": "Toggle button",
+  "category": "buttons",
+  "source": "default",
+  "widget_class": "QPushButton",
+  "qt_include": "QPushButton",
+  "style_role": "button_secondary",
+  "tags": [
+    "button",
+    "toggle",
+    "checkable",
+    "state"
+  ],
+  "description": "A button that stays pressed.",
+  "properties": [
+    {
+      "name": "text",
+      "type": "string",
+      "default": "Toggle",
+      "control": "text"
+    },
+    {
+      "name": "checked",
+      "type": "bool",
+      "default": false,
+      "control": "checkbox"
+    }
+  ],
+  "quick_properties": [
+    "text"
+  ],
+  "signals": [
+    {
+      "name": "toggled",
+      "stub": "on_{name}_toggled"
+    }
+  ]
+}

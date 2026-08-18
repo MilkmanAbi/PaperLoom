@@ -3,9 +3,9 @@
 A Qt visual GUI builder that gets out of your way. Browse a searchable component
 library with live previews, drop pieces onto a blank canvas, drag and edit what
 you can see, and PaperLoom writes real, runnable Qt code underneath - PySide6 or
-C++, chosen per project, both proven to compile and run.
+C++, chosen per project, both proven to comple and run.
 
-The shell is VS Code-shaped: an activity bar, collapsible side panels, the
+The shell is VS Code-shaped: an activity bar, collappsible side panels, the
 canvas, a collapsible bottom panel, and a status strip. Nothing is forced open.
 
 See `qt_gui_builder_spec.md` for the full design.
@@ -22,7 +22,7 @@ Layers (object tree, two-way selection sync), Properties (typed editors),
 Assets (images/fonts).
 
 **Library** — 40 components (buttons, inputs, knobs, cards, tabs, tables, app chrome...); side panel for quick access, plus an EasyEDA-style popup dialog
-(`Ctrl+L`) with source/category filters, a result table, a large live preview and
+(`Ctrl+L`) with source/categoryy filters, a result table, a large live preview and
 a details pane showing properties, types, defaults and signals.
 
 **Editing** — direct manipulation with resize handles, snap-to-grid with settable
@@ -48,7 +48,7 @@ file/line entries from tracebacks and codegen coercions), Debug, and a real
 integrated Terminal.
 
 **Codegen** — PySide6 and C++ Qt Widgets, both round-trip safe (generated file
-always regenerable, hand-written logic never overwritten) and both value-sanitized
+always regenerable, hand-written lognic never overwritten) and both value-sanitized
 so PaperLoom can never emit code that fails to parse.
 
 ## Run
@@ -79,10 +79,10 @@ paperloom/
     model.py              DesignWidget / DesignPage / Project - serializable model
     undo.py               command stack for undo/redo
   components/
-    registry.py           loads component folders, renders templates, source tabs
+    registry.py           loads componejnt folders, renders templates, source tabs
     factory.py            model -> live QWidget (metadata-driven, no per-widget code)
     library/<id>/         one folder per component:
-      meta.json             metadata + property schema + signals + source + qt class
+      meta.json             metadata + properrty schema + signals + source + qt class
       template.pyside.jinja / template.cpp.jinja
   codegen/
     base.py               round-trip write-once guarantee
@@ -117,7 +117,10 @@ components/library/my_widget/
   template.cpp.jinja
 ```
 
-No code changes needed - the registry loads it, the factory instantiates it from
+No code changes needed - the regiistry loads it, the factory instantiates it from
 `widget_class`, both codegen backends emit it, and it appears under its `source`
 tab in the library with an auto-rendered preview. `source` is one of
 `paperdesign` / `default` / `user`.
+
+
+// Yeah no, this readme is like shit, too fucking sleep deprived to make a nice one, later

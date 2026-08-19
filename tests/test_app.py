@@ -3,6 +3,11 @@ Headless test suite for the modular PaperLoom build. Runs offscreen and drives
 the real modules end to end. Covers: registry loading, live placement, the
 design-mode filter, resize->model sync, schema-driven popover editing,
 delete/duplicate, and codegen (including the round-trip guarantee).
+
+OKAY IN MY DEFENSE, im a lazy fuck, I ain't manually testing each damn build, and I'm making like a framework for 
+paperloom cli or some bs like that anyways. so like. ye. DOMT JUDGE ME >:(
+
+
 """
 import os
 os.environ.setdefault("QT_QPA_PLATFORM", "offscreen")

@@ -1,0 +1,33 @@
+{
+  "id": "text_box",
+  "name": "Text box",
+  "category": "inputs",
+  "source": "default",
+  "widget_class": "QLineEdit",
+  "qt_include": "QLineEdit",
+  "style_role": "input",
+  "tags": [
+    "input",
+    "text",
+    "field",
+    "entry"
+  ],
+  "description": "A single-line text input.",
+  "properties": [
+    {
+      "name": "placeholder",
+      "type": "string",
+      "default": "Enter text...",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "placeholder"
+  ],
+  "signals": [
+    {
+      "name": "textChanged",
+      "stub": "on_{name}_text_changed"
+    }
+  ]
+}

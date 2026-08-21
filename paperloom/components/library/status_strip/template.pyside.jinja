@@ -1,0 +1,8 @@
+self.{{ name }} = QWidget(MainWindow)
+self.{{ name }}.setObjectName("{{ name }}")
+self.{{ name }}.setProperty("role", "statusbar")
+self.{{ name }}.setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }})
+self.{{ name }}_text = QLabel(self.{{ name }})
+self.{{ name }}_text.setObjectName("{{ name }}_text")
+self.{{ name }}_text.setText("{{ text }}")
+self.{{ name }}_text.setGeometry(10, 0, max(0, {{ width }} - 20), {{ height }})

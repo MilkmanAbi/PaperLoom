@@ -1,0 +1,10 @@
+{{ name }} = new QFrame(MainWindow);
+{{ name }}->setObjectName("{{ name }}");
+{{ name }}->setProperty("role", "modal");
+{{ name }}->setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }});
+auto *{{ name }}_title = new QLabel({{ name }});
+{{ name }}_title->setObjectName("{{ name }}_title");
+{{ name }}_title->setProperty("role", "modal_title");
+{{ name }}_title->setText("{{ title }}");
+{{ name }}_title->setGeometry(16, 14, std::max(0, {{ width }} - 32), 28);
+{{ name }}_title->setWordWrap(true);

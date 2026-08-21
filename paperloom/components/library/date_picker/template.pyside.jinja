@@ -1,0 +1,6 @@
+self.{{ name }} = QDateEdit(MainWindow)
+self.{{ name }}.setObjectName("{{ name }}")
+self.{{ name }}.setProperty("role", "date_picker")
+self.{{ name }}.setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }})
+self.{{ name }}.setCalendarPopup(True)
+self.{{ name }}.setDate(QDate.fromString("{{ date }}", "yyyy-MM-dd"))

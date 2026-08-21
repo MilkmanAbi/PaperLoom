@@ -1,0 +1,39 @@
+{
+  "id": "checkbox",
+  "name": "Checkbox",
+  "category": "inputs",
+  "source": "default",
+  "widget_class": "QCheckBox",
+  "qt_include": "QCheckBox",
+  "style_role": "checkbox",
+  "tags": [
+    "checkbox",
+    "check",
+    "boolean",
+    "tick"
+  ],
+  "description": "A labelled checkbox.",
+  "properties": [
+    {
+      "name": "text",
+      "type": "string",
+      "default": "Enable",
+      "control": "text"
+    },
+    {
+      "name": "checked",
+      "type": "bool",
+      "default": false,
+      "control": "checkbox"
+    }
+  ],
+  "quick_properties": [
+    "text"
+  ],
+  "signals": [
+    {
+      "name": "toggled",
+      "stub": "on_{name}_toggled"
+    }
+  ]
+}

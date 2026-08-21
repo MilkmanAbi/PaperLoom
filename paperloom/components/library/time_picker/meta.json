@@ -1,0 +1,33 @@
+{
+  "id": "time_picker",
+  "name": "Time picker",
+  "category": "inputs",
+  "source": "default",
+  "widget_class": "QTimeEdit",
+  "qt_include": "QTimeEdit",
+  "style_role": "input",
+  "tags": [
+    "time",
+    "clock",
+    "picker",
+    "input"
+  ],
+  "description": "A time selection field.",
+  "properties": [
+    {
+      "name": "time",
+      "type": "string",
+      "default": "09:00:00",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "time"
+  ],
+  "signals": [
+    {
+      "name": "timeChanged",
+      "stub": "on_{name}_time_changed"
+    }
+  ]
+}

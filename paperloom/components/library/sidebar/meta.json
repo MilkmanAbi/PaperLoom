@@ -1,0 +1,28 @@
+{
+  "id": "sidebar",
+  "name": "Sidebar",
+  "category": "chrome",
+  "source": "default",
+  "widget_class": "QWidget",
+  "qt_include": "QWidget",
+  "style_role": "sidebar",
+  "tags": [
+    "sidebar",
+    "nav",
+    "drawer",
+    "chrome"
+  ],
+  "description": "A side navigation surface.",
+  "properties": [
+    {
+      "name": "title",
+      "type": "string",
+      "default": "",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "title"
+  ],
+  "signals": []
+}

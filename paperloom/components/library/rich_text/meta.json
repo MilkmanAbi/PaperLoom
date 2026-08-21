@@ -1,0 +1,21 @@
+{
+  "id": "rich_text",
+  "name": "Rich text",
+  "category": "display",
+  "source": "default",
+  "widget_class": "QTextBrowser",
+  "qt_include": "QTextBrowser",
+  "style_role": "rich_text",
+  "tags": ["markdown", "text", "rich", "latex", "math", "paragraph", "document", "content", "heading", "subtitle"],
+  "description": "A Markdown + LaTeX block. Write Markdown and it renders as rich text - headings, lists, links, code, and $math$. Double-click it (or use Edit content) to open the Markdown Studio.",
+  "properties": [
+    {
+      "name": "content",
+      "type": "markdown",
+      "default": "# Heading\n\nWrite **Markdown** here - *italics*, lists, [links](https://qt.io) and inline math like $E = mc^2$.",
+      "control": "markdown"
+    }
+  ],
+  "quick_properties": ["content"],
+  "signals": []
+}

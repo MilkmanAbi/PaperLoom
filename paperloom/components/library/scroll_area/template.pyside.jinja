@@ -1,0 +1,8 @@
+self.{{ name }} = QScrollArea(MainWindow)
+self.{{ name }}.setObjectName("{{ name }}")
+self.{{ name }}.setProperty("role", "scroll_area")
+self.{{ name }}.setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }})
+self.{{ name }}.setWidgetResizable(True)
+self.{{ name }}_inner = QLabel("{{ label }}")
+self.{{ name }}_inner.setAlignment(Qt.AlignmentFlag.AlignCenter)
+self.{{ name }}.setWidget(self.{{ name }}_inner)

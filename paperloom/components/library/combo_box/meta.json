@@ -1,0 +1,33 @@
+{
+  "id": "combo_box",
+  "name": "Dropdown",
+  "category": "inputs",
+  "source": "default",
+  "widget_class": "QComboBox",
+  "qt_include": "QComboBox",
+  "style_role": "select",
+  "tags": [
+    "combo",
+    "dropdown",
+    "select",
+    "picker"
+  ],
+  "description": "A dropdown selection box.",
+  "properties": [
+    {
+      "name": "items",
+      "type": "string",
+      "default": "One, Two, Three",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "items"
+  ],
+  "signals": [
+    {
+      "name": "currentIndexChanged",
+      "stub": "on_{name}_changed"
+    }
+  ]
+}

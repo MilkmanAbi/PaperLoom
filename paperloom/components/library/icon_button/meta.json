@@ -1,0 +1,33 @@
+{
+  "id": "icon_button",
+  "name": "Icon button",
+  "category": "buttons",
+  "source": "default",
+  "widget_class": "QPushButton",
+  "qt_include": "QPushButton",
+  "style_role": "button_icon",
+  "tags": [
+    "button",
+    "icon",
+    "square",
+    "compact"
+  ],
+  "description": "A compact square icon button.",
+  "properties": [
+    {
+      "name": "text",
+      "type": "string",
+      "default": "+",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "text"
+  ],
+  "signals": [
+    {
+      "name": "clicked",
+      "stub": "on_{name}_clicked"
+    }
+  ]
+}

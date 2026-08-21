@@ -1,0 +1,13 @@
+{{ name }} = new QLabel(MainWindow);
+{{ name }}->setObjectName("{{ name }}");
+{{ name }}->setProperty("role", "media_frame");
+{{ name }}->setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }});
+{{ name }}->setProperty("asset", "{{ asset }}");
+{{ name }}->setProperty("fit", "{{ fit }}");
+{{ name }}->setAlignment(Qt::AlignCenter);
+{% if asset_path %}{% if fit == "stretch" %}{{ name }}->setPixmap(QPixmap("{{ asset_path }}").scaled({{ width }}, {{ height }}, Qt::IgnoreAspectRatio, Qt::SmoothTransformation));
+{{ name }}->setScaledContents(true);
+{% elif fit == "cover" %}{{ name }}->setPixmap(QPixmap("{{ asset_path }}").scaled({{ width }}, {{ height }}, Qt::KeepAspectRatioByExpanding, Qt::SmoothTransformation));
+{% elif fit == "center" %}{{ name }}->setPixmap(QPixmap("{{ asset_path }}"));
+{% else %}{{ name }}->setPixmap(QPixmap("{{ asset_path }}").scaled({{ width }}, {{ height }}, Qt::KeepAspectRatio, Qt::SmoothTransformation));
+{% endif %}{% else %}{{ name }}->setText("Image");{% endif %}

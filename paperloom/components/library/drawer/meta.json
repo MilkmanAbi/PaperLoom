@@ -1,0 +1,29 @@
+{
+  "id": "drawer",
+  "name": "Drawer",
+  "category": "overlays",
+  "source": "default",
+  "widget_class": "QWidget",
+  "qt_include": "QWidget",
+  "style_role": "sidebar",
+  "tags": [
+    "drawer",
+    "panel",
+    "slide",
+    "overlay",
+    "sheet"
+  ],
+  "description": "A slide-in side drawer surface.",
+  "properties": [
+    {
+      "name": "title",
+      "type": "string",
+      "default": "",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "title"
+  ],
+  "signals": []
+}

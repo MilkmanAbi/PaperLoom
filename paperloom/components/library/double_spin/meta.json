@@ -1,0 +1,33 @@
+{
+  "id": "double_spin",
+  "name": "Decimal input",
+  "category": "inputs",
+  "source": "default",
+  "widget_class": "QDoubleSpinBox",
+  "qt_include": "QDoubleSpinBox",
+  "style_role": "input",
+  "tags": [
+    "decimal",
+    "float",
+    "number",
+    "input"
+  ],
+  "description": "A decimal number input.",
+  "properties": [
+    {
+      "name": "value",
+      "type": "int",
+      "default": 0,
+      "control": "number"
+    }
+  ],
+  "quick_properties": [
+    "value"
+  ],
+  "signals": [
+    {
+      "name": "valueChanged",
+      "stub": "on_{name}_value_changed"
+    }
+  ]
+}

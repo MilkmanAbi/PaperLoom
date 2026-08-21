@@ -1,0 +1,29 @@
+{
+  "id": "gif_frame",
+  "name": "Animated image",
+  "category": "media",
+  "source": "default",
+  "widget_class": "QLabel",
+  "qt_include": "QLabel",
+  "style_role": "media_frame",
+  "tags": [
+    "gif",
+    "animation",
+    "animated",
+    "media",
+    "movie"
+  ],
+  "description": "Plays an animated GIF asset via QMovie.",
+  "properties": [
+    {
+      "name": "asset",
+      "type": "asset",
+      "default": "",
+      "control": "asset"
+    }
+  ],
+  "quick_properties": [
+    "asset"
+  ],
+  "signals": []
+}

@@ -1,0 +1,6 @@
+{{ name }} = new QDateEdit(MainWindow);
+{{ name }}->setObjectName("{{ name }}");
+{{ name }}->setProperty("role", "date_picker");
+{{ name }}->setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }});
+{{ name }}->setCalendarPopup(true);
+{{ name }}->setDate(QDate::fromString("{{ date }}", "yyyy-MM-dd"));

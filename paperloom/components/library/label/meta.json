@@ -1,0 +1,27 @@
+{
+  "id": "label",
+  "name": "Label",
+  "category": "display",
+  "source": "default",
+  "widget_class": "QLabel",
+  "qt_include": "QLabel",
+  "style_role": "label",
+  "tags": [
+    "label",
+    "text",
+    "caption"
+  ],
+  "description": "A static text label.",
+  "properties": [
+    {
+      "name": "text",
+      "type": "string",
+      "default": "Label",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "text"
+  ],
+  "signals": []
+}

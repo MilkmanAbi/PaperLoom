@@ -1,0 +1,6 @@
+{{ name }} = new QCheckBox(MainWindow);
+{{ name }}->setObjectName("{{ name }}");
+{{ name }}->setProperty("role", "checkbox");
+{{ name }}->setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }});
+{{ name }}->setText("{{ text }}");
+{{ name }}->setChecked({{ 'true' if checked else 'false' }});

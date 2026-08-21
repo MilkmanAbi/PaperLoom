@@ -1,0 +1,28 @@
+{
+  "id": "subtitle",
+  "name": "Subtitle",
+  "category": "display",
+  "source": "default",
+  "widget_class": "QLabel",
+  "qt_include": "QLabel",
+  "style_role": "subtitle",
+  "tags": [
+    "subtitle",
+    "heading",
+    "h2",
+    "section"
+  ],
+  "description": "A section heading.",
+  "properties": [
+    {
+      "name": "text",
+      "type": "string",
+      "default": "Section",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "text"
+  ],
+  "signals": []
+}

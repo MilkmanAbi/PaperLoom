@@ -1,0 +1,10 @@
+self.{{ name }} = QFrame(MainWindow)
+self.{{ name }}.setObjectName("{{ name }}")
+self.{{ name }}.setProperty("role", "sidebar")
+self.{{ name }}.setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }})
+{% if title %}self.{{ name }}_title = QLabel(self.{{ name }})
+self.{{ name }}_title.setObjectName("{{ name }}_title")
+self.{{ name }}_title.setText("{{ title }}")
+self.{{ name }}_title.setGeometry(12, 8, max(0, {{ width }} - 24), 22)
+self.{{ name }}_title.setStyleSheet("font-weight: 600; font-size: 13px;")
+{% endif %}

@@ -1,0 +1,34 @@
+{
+  "id": "dial",
+  "name": "Knob",
+  "category": "inputs",
+  "source": "default",
+  "widget_class": "QDial",
+  "qt_include": "QDial",
+  "style_role": "dial",
+  "tags": [
+    "dial",
+    "knob",
+    "rotary",
+    "control",
+    "audio"
+  ],
+  "description": "A rotary knob control.",
+  "properties": [
+    {
+      "name": "value",
+      "type": "int",
+      "default": 40,
+      "control": "number"
+    }
+  ],
+  "quick_properties": [
+    "value"
+  ],
+  "signals": [
+    {
+      "name": "valueChanged",
+      "stub": "on_{name}_value_changed"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "date_picker",
+  "name": "Date picker",
+  "category": "inputs",
+  "source": "default",
+  "widget_class": "QDateEdit",
+  "qt_include": "QDateEdit",
+  "style_role": "input",
+  "tags": [
+    "date",
+    "calendar",
+    "picker",
+    "input"
+  ],
+  "description": "A date selection field.",
+  "properties": [
+    {
+      "name": "date",
+      "type": "string",
+      "default": "2026-01-01",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "date"
+  ],
+  "signals": [
+    {
+      "name": "dateChanged",
+      "stub": "on_{name}_date_changed"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "danger_button",
+  "name": "Danger button",
+  "category": "buttons",
+  "source": "default",
+  "widget_class": "QPushButton",
+  "qt_include": "QPushButton",
+  "style_role": "button_danger",
+  "tags": [
+    "button",
+    "danger",
+    "delete",
+    "destructive"
+  ],
+  "description": "A destructive action button.",
+  "properties": [
+    {
+      "name": "text",
+      "type": "string",
+      "default": "Delete",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "text"
+  ],
+  "signals": [
+    {
+      "name": "clicked",
+      "stub": "on_{name}_clicked"
+    }
+  ]
+}

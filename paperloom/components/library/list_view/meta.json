@@ -1,0 +1,33 @@
+{
+  "id": "list_view",
+  "name": "List",
+  "category": "data",
+  "source": "default",
+  "widget_class": "QListWidget",
+  "qt_include": "QListWidget",
+  "style_role": "list",
+  "tags": [
+    "list",
+    "items",
+    "rows",
+    "collection"
+  ],
+  "description": "A simple item list.",
+  "properties": [
+    {
+      "name": "items",
+      "type": "string",
+      "default": "First item, Second item, Third item",
+      "control": "text"
+    }
+  ],
+  "quick_properties": [
+    "items"
+  ],
+  "signals": [
+    {
+      "name": "currentRowChanged",
+      "stub": "on_{name}_row_changed"
+    }
+  ]
+}

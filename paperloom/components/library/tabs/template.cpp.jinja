@@ -1,6 +1,0 @@
-{{ name }} = new QTabWidget(MainWindow);
-{{ name }}->setObjectName("{{ name }}");
-{{ name }}->setProperty("role", "tabs");
-{{ name }}->setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }});
-{% for t in tabs.split(",") %}{{ name }}->addTab(new QWidget(), "{{ t.strip() }}");
-{% endfor %}

@@ -1,9 +1,0 @@
-{{ name }} = new QLabel(MainWindow);
-{{ name }}->setObjectName("{{ name }}");
-{{ name }}->setProperty("role", "media_frame");
-{{ name }}->setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }});
-{{ name }}->setProperty("asset", "{{ asset }}");
-{{ name }}->setAlignment(Qt::AlignCenter);
-{% if asset_path %}auto *{{ name }}_movie = new QMovie("{{ asset_path }}");
-{{ name }}->setMovie({{ name }}_movie);
-{{ name }}_movie->start();{% else %}{{ name }}->setText("Animated image");{% endif %}

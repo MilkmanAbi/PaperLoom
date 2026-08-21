@@ -1,6 +1,0 @@
-self.{{ name }} = QComboBox(MainWindow)
-self.{{ name }}.setObjectName("{{ name }}")
-self.{{ name }}.setProperty("role", "select")
-self.{{ name }}.setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }})
-{% for item in items.split(",") %}self.{{ name }}.addItem("{{ item.strip() }}")
-{% endfor %}

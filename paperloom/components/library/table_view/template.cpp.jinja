@@ -1,7 +1,0 @@
-{{ name }} = new QTableWidget(MainWindow);
-{{ name }}->setObjectName("{{ name }}");
-{{ name }}->setProperty("role", "table");
-{{ name }}->setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }});
-{{ name }}->setColumnCount({{ columns.split(",") | length }});
-{{ name }}->setHorizontalHeaderLabels(QStringList() {% for c in columns.split(",") %}<< "{{ c.strip() }}"{% endfor %});
-{{ name }}->setRowCount(3);

@@ -1,6 +1,0 @@
-self.{{ name }} = QFrame(MainWindow)
-self.{{ name }}.setObjectName("{{ name }}")
-self.{{ name }}.setProperty("role", "divider")
-self.{{ name }}.setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }})
-{% if vertical %}self.{{ name }}.setFrameShape(QFrame.Shape.VLine){% else %}self.{{ name }}.setFrameShape(QFrame.Shape.HLine){% endif %}
-self.{{ name }}.setFrameShadow(QFrame.Shadow.Plain)

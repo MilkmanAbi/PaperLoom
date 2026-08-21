@@ -1,7 +1,0 @@
-self.{{ name }} = QTableWidget(MainWindow)
-self.{{ name }}.setObjectName("{{ name }}")
-self.{{ name }}.setProperty("role", "table")
-self.{{ name }}.setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }})
-self.{{ name }}.setColumnCount({{ columns.split(",") | length }})
-self.{{ name }}.setHorizontalHeaderLabels([{% for c in columns.split(",") %}"{{ c.strip() }}"{% if not loop.last %}, {% endif %}{% endfor %}])
-self.{{ name }}.setRowCount(3)

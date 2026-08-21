@@ -1,7 +1,0 @@
-self.{{ name }} = QTreeWidget(MainWindow)
-self.{{ name }}.setObjectName("{{ name }}")
-self.{{ name }}.setProperty("role", "tree")
-self.{{ name }}.setGeometry({{ x }}, {{ y }}, {{ width }}, {{ height }})
-self.{{ name }}.setHeaderHidden(True)
-{% for item in items.split(",") %}self.{{ name }}.addTopLevelItem(QTreeWidgetItem(["{{ item.strip() }}"]))
-{% endfor %}

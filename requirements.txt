@@ -1,7 +1,0 @@
-PySide6==6.11.1
-Jinja2>=3.0
-matplotlib>=3.5       # renders LaTeX math for the rich-text engine (degrades gracefully if absent)
-markdown-it-py>=4.0    # rich-text markdown parsing (tokenizer-based, GFM)
-mdit-py-plugins>=0.6   # math/footnotes/tasklists extensions for markdown-it-py
-pygments>=2.18         # syntax highlighting inside rich-text code blocks
-linkify-it-py>=2.0     # optional: bare-URL autolinking in rich text; degrades gracefully if absent
